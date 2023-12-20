@@ -1,0 +1,20 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.connectContent {
+  font-size: 0.8125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.stayConnected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3125rem;
+}
