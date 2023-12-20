@@ -1,15 +1,11 @@
 import logo from "./assets/logo.svg";
 import "./App.css";
-
+import { Login } from "./pages/Login/login";
 function App() {
   return (
     <>
-      <div>
-        <a>
-          <img src={logo} className="logo minutinho" alt="Minutinho logo" />
-        </a>
-      </div>
-      <p>Seu app de gerenciamento de horas</p>
+      <img src={logo} className="logo minutinho" alt="Minutinho logo" />
+      <Login />
     </>
   );
 }
